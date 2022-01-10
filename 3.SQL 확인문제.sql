@@ -3,7 +3,7 @@
 #내용 : 3.SQL 확인문제
 
 #실습 3-1
-tbl_memberCREATE TABLE `tbl_member` (
+CREATE TABLE `tbl_member` (
 	`memberID`   VARCHAR(10) PRIMARY KEY,
 	`memberName` VARCHAR(10) NOT NULL,
 	`memberHp`   CHAR(13) UNIQUE,
